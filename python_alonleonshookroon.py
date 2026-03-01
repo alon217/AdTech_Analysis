@@ -39,8 +39,10 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-api_url =  "http://leads-management.ad-maven.com:9777/similar_get_domains"
-api_key = "alo12220@gmail.com"
+# Configuration - Replace with your own provider's details
+api_url = "https://api.your-provider.com/get_domains" # Placeholder for API endpoint
+api_key = "your_email@example.com"                   # Placeholder for authentication 
+
 request_timeout = 5
 max_workers = 5 # parallel
 
